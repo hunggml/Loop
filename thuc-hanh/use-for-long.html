@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let formm = '<table width="400px" border="1px" cellspacing="0" >'
+    for (let i = 1; i <= 10; i++) {
+        formm = formm + '<tr>'
+        for (let j = 1; j <= 10; j++){
+            formm = formm +'<td>' + i * j + '</td>'
+
+        }
+        formm = formm + '</tr>'
+    }
+    formm = formm + '</table>'
+    document.write(formm)
+</script>
+</body>
+</html>
