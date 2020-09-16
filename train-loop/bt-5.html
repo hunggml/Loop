@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let an = 0
+    let bn = 1
+    let sum = 0
+    let result = 2
+    let numm = +prompt('nhap so ')
+    for (let o = 2; o < numm; o++) {
+        result += bn + an
+        sum = an
+        an = bn
+        bn = sum + an
+
+    }
+    document.write('tong so hang nhap la : ' + result)
+
+
+</script>
+</body>
+</html>

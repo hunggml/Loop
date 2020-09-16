@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let n1 = 0;
+    let n2  = 1;
+    let cons = 0;
+    let fibonaci = "0,1,";
+    let number = +prompt('enter number u want')
+    for (let i = 2; i < number; i++) {
+        fibonaci += n1 + n2 + ",";
+        cons = n1;
+        n1 = n2;
+        n2 = cons + n1
+    }
+
+    document.write(fibonaci)
+</script>
+</body>
+</html>

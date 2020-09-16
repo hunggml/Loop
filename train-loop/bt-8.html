@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="start" onclick="start()">START</button>
+
+<script>
+    function start() {
+        let comNumber = Math.floor(Math.random() * 101);
+        // let rand = Math.floor(Math.random()*11)+70;
+        let num = 0;
+        let count = 0;
+        // alert(comNumber);
+        do {
+            num = +prompt("Nhap 1 so");
+            count++;
+            if (num > comNumber) {
+                alert("So ban nhap lon hon dap an");
+            } else if (num < comNumber) {
+                alert("So ban nhap nho hon dap an");
+            }
+        }
+        while (num !== comNumber ||count>)
+
+    }
+
+
+</script>
+</body>
+</html>
